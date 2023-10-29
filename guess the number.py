@@ -11,9 +11,9 @@ def guess_the_number():
         if guess < number_to_guess:
             print("Higher!")
         elif guess > number_to_guess:
-            print("Lower!")
+            print("Lower! :/")
         else:
-            print(f"Congratulations! You guessed the number in {attempts} attempts.")
+            print(f"Congratulations! You guessed the number in {attempts} attempts. :)")
             break
 
 guess_the_number()
