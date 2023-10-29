@@ -17,15 +17,15 @@ def rock_paper_scissors():
                 print("You win!")
         elif user_choice == "paper":
             if computer_choice == "scissors":
-                print("Computer wins!")
+                print("Computer wins! :/")
             else:
                 print("You win!")
         elif user_choice == "scissors":
             if computer_choice == "rock":
-                print("Computer wins!")
+                print("Computer wins! :/")
             else:
-                print("You win!")
+                print("You win! :)")
     else:
-        print("Invalid choice. Please choose rock, paper, or scissors.")
+        print("Invalid choice. Please choose rock, paper, or scissors. :c")
 
 rock_paper_scissors()
